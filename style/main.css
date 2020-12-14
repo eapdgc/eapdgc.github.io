@@ -1,0 +1,222 @@
+body {
+}
+
+.demo_wrap {
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    border: 1px ;
+}
+.demo_wrap h1 {
+    padding: 200px;
+    position: relative;
+    z-index: 2;
+}
+.demo_wrap img {
+    position: absolute;
+    left: -5px;
+    top: -13px;
+    width: 102%;
+    height: auto;
+    opacity: 0.5;
+}
+
+
+/*.navbar-custom { 
+    background-color: #7897B0; 
+}
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+	color: #F8F0E6; 
+}*/
+
+ .navbar, .navbar-expand-lg, .navbar-light {
+  background-color: #7897B0;
+ }
+ .navbar {
+  min-height: 80px;
+}
+
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+
+.banner {
+	background-color: #50816B; 
+	color: #FFFBF5;
+	text-align: center;
+	font-weight: lighter;
+	padding: 10% 0% 10% 0%;
+}
+
+h1, h2, h3, p {
+/*	color: #2B3D41;*/
+}
+
+/*a:link, a:visited {
+    color: #352C2E;
+}
+
+a:hover, a:active, a:focus {
+	color: #7097B2;
+	text-decoration: underline;
+}*/
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+  margin-bottom: 10px;
+}
+
+/*#mainContainer{
+	width: 800px;
+	margin-left: auto;
+	
+	margin-right: auto;
+}
+#header {
+	padding: 0;
+}
+
+#mainContent{
+	width: 800px;
+	min-height: 400px;
+	position:relative;
+	background: #7097B2;
+	vertical-align: top;
+	text-align:left;
+}
+
+#paragraphHeader{
+	font-size:14px;
+	font-weight:bold;
+}
+
+#ltContent {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 160px;
+	padding: 50px 17px;	
+	background: #7097B2;
+	color: #000000;
+	vertical-align: top;
+}
+
+#ltContent img{
+	background:url(../images/blueBar.png) no-repeat;
+	padding-left:5px;
+
+}
+#rtContent {
+	background:#ffffff;
+	width: 560px;
+	padding:50px 20px;
+	font-size:12px;
+	position:relative;
+	top:0px;
+	left:199px;
+	min-height:400px;
+}
+#rtInnerContent{
+	background:url(../images/greenBar1.png) no-repeat #ffffff;
+	padding: 0px 20px;
+}*/
+
+/*#navHolder {
+	background-image:url(../images/navImg.png);
+		list-style:none;
+		height:20px;
+		margin:0px;
+		padding:0px;
+}
+
+#navHolder li{
+	float:left;
+	padding: 2px;
+	text-align:center;
+}
+
+#navHolder td {
+	border-right: 1px #fff solid!important;
+	vertical-align: top;
+	color: #fff;
+	padding: 0;
+	border-right: 1px solid #CCCCCC;
+}
+
+#navHolder a {
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	padding: 0px;
+	font-weight:bold;
+	font-size:13px;
+}
+
+#navHolder a:hover {
+	color: #7097B2;
+	font-weight:bold;
+	font-size:13px;
+}*/
+
+/*#footer {
+	width: 800px;
+	padding: 0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:left;
+
+}*/
+
+#copyright {
+	font-size: 8pt;
+}
+
+#footerNav {
+	font-size: 8pt;
+}
+
+.clear {
+	clear:both;
+}
+
+#publicationsList{
+	list-style:none;
+	padding:0px;
+}
+
+#publicationsList li{
+	padding:0px 0px 10px 0px;
+}
+
+#membersList{
+	padding:0px;
+}
+
+#membersList li {
+	list-style:none;
+	padding:0px 0px 10px 0px;
+	margin:0px;
+}
