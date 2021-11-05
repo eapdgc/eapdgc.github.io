@@ -1,8 +1,9 @@
+var baseURL = 'https://eapdgc.github.io';
 $(document).ready(function() {
 	console.log('ready');
 	//create nav bar
 	var nav = $('#nav');
-	pages = ['About', 'Research', 'Collaborators', 'Contact'];
+	pages = ['About', 'Research', 'Collaborators', 'Contact', 'Funders And Partners'];
 	activePage = window.location.href.split('/')[window.location.href.split('/').length-1]
 	pagesList = createListOfPages(pages);
 	nav.append(pagesList);
@@ -30,7 +31,7 @@ function createListOfPages(pages) {
 			a.className = 'nav-link';
 		}
 		
-		a.href = pages[i].toLowerCase()+'.html';
+		a.href = baseURL+'/'+pages[i].toLowerCase().replaceAll(' ', '_')+'.html';
 		a.style.color = '#F8F0E6';
 		
 		li.appendChild(a);
