@@ -1,6 +1,15 @@
 body {
 }
-
+img {
+	width:  100%;
+}
+.img-caption {
+	font-style: italic;
+	color: darkgrey;
+}
+.small-header {
+	font-size: 2.5rem;
+}
 .demo_wrap {
     position: relative;
     overflow: hidden;
