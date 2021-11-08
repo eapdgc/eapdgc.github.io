@@ -3,6 +3,9 @@ body {
 img {
 	width:  100%;
 }
+.people {
+	width:  20%;
+}
 .img-caption {
 	font-style: italic;
 	color: darkgrey;
