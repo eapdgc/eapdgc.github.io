@@ -3,7 +3,7 @@ $(document).ready(function() {
 	console.log('ready');
 	//create nav bar
 	var nav = $('#nav');
-	pages = ['About', 'Research', 'Collaborators', 'Contact', 'Funders And Partners'];
+	pages = ['About', 'Research', 'Collaborators', 'Funders And Partners', 'Publications', 'Contact'];
 	activePage = window.location.href.split('/')[window.location.href.split('/').length-1]
 	pagesList = createListOfPages(pages);
 	nav.append(pagesList);
